@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprodução de áudio</title>
+</head>
+<body>
+    <h1>Reproduzindo áudio</h1>
+    <h2>Primeira maneira</h2>
+    <audio src="midia/puxa_frango_toquesengracadosmp3.com.mp3" controls></audio><!--controls serve para por a opção de play-->
+
+    <h2>Segunda maneira</h2>
+    <audio preload="metadata" controls>
+        <source src="midia/puxa_frango_toquesengracadosmp3.com.mp3" type="audio/mpeg">
+    </audio><!--tem que usar source: src-->
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Video</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu próprio servidor</p>
+    <h2>Primeiro Jeito</h2>
+    <video src="midia/video.mp4" width="500" controls></video><!--Jeito mais simples-->
+    <!--widht é o tamanho que o video vai ficar na tela-->
+
+    <h2>Segundo jeito(mais recomendado)</h2><!--É mais recomendado por poder colocar varios tipos de arquivos, ja que alguns navegadores não rodam determinados arquivos, pois ele funciona como um "if" porque se um não rodar ele vai tentar o outro e outro até acabar os arquivos. Também serve para imagens-->
+    <video width="500" controls>
+        <source src="midia/video.mp4" type="video/mp4">
+    </video>
+    <h2>OBS:</h2>
+    <p>Para adicionar capa aos videos é so usar a tag poster dentro de &lt;video&gt;</p>
+</body>
+</html>

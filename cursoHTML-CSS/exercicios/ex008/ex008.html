@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formataçõs</h1>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>Para deixar <code>as letras com o mesmo espaçamento</code> se usa o comando &lt;code&gt;, fonte <code>monoespaçada</code></p>
+    <p>para deixar um código com cara de código se usa a tag &lt;pre&gt; junco com a tag &lt;code&gt; EX:</p>
+    <pre>
+        <code>
+    n = int(input('Digite um número: '))
+    if n % 2 == 0:
+        print(f'O número {n} é par!')
+    else:
+        print(f'O número {n} é ímpar!')
+    print('FIM!')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria um sábio: <q>O computador é um burro muito rápido.</q><br>as aspas foram através da tag &lt;q&gt;</p><!--É melhor usar o <q> para citações do que as aspas-->
+    <h2>Citações completas</h2>
+    <p>Segundo Friedrich Nietzsche</p>
+    <blockquote cite="https://www.pensador.com/autor/friedrich_nietzsche/">
+        A vantagem de ter péssima memória é divertir-se muitas vezes com as mesmas coisas boas como se fosse a primeira vez.
+    </blockquote>
+    <p>&lt;blockquote&gt; serve para fazer uma citação a uma frase de alguem como o exemplo acima &uarr; e a função que esta dentro do código, a função &lt;blockquote <mark style="background-color: rgb(0, 255, 0);">cite=""</mark>&gt; serve para o algoritmo saber de quem você esta tirando a referencia</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <p>Para fazer isso, quando o mouse parar em cima do sublinhdo, se usa a tag &lt;abbr title=""&gt;</p>
+    <h3>Dica final</h3>
+    <p>Para envelopar uma palavra para por uma tag só é usar o seguinte: marca a palavra + Ctrl + Shift + P. Depois clica em Wrap with abbreviation e bota a tag que quer</p>
+</body>
+</html>

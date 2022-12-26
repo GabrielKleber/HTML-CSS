@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odio facere quidem quo accusamus distinctio sit nesciunt nemo corporis. Veritatis assumenda accusantium nesciunt in cum rerum, commodi id aut cumque.</p>
+
+    <ul>
+        <li><a href="paginas/pag01.html" target="tela">Primeira página</a></li>
+        <li><a href="paginas/pag02.html" target="tela">Segunda página</a></li>
+        <li><a href="paginas/pag03.html" target="tela">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quam, asperiores quod optio voluptas obcaecati ratione qui odio molestias quibusdam sequi corrupti deserunt error voluptatem. Nam odio tempore suscipit delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum laudantium, perspiciatis porro modi pariatur fugiat, fuga voluptas minus deleniti praesentium alias! Quas sed aut aliquam iure et ullam enim!</p>
+
+    <iframe srcdoc="<h1>Escolha uma opção acima</h1>" frameborder="1" id="tela" name="tela">
+        <p>Infelizmente seu navegador não é compativel. Que tistreza</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, corrupti. Nobis quaerat vitae corporis animi veniam ea earum repellat ex expedita iusto ad nulla vel, sed libero possimus deleniti fugit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, minima esse facilis nisi minus vel quos soluta beatae distinctio placeat amet non. Fuga ut, recusandae esse provident iure ratione perferendis!</p>
+</body>
+</html>
